@@ -5,9 +5,9 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || (process.env.VERCEL_URL ? `h
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Masereka Benet — Frontend Developer",
-  description: "Portfolio of Masereka Benet, a Software Engineering student and Frontend Developer in Kampala, Uganda.",
-  openGraph: { title: "Masereka Benet — Frontend Developer", description: "Thoughtful interfaces. Useful technology. Built with curiosity.", type: "website" },
+  title: "Masereka Benet — Software Developer",
+  description: "Portfolio of Masereka Benet, a Software Developer, Data Analyst, and UI/UX Designer in Kampala, Uganda.",
+  openGraph: { title: "Masereka Benet — Software Developer", description: "Thoughtful interfaces. Useful technology. Built with curiosity.", type: "website" },
 };
 
 const themeScript = `(()=>{try{const t=localStorage.getItem('mb-theme');if(t==='light')document.documentElement.dataset.theme='light'}catch{}})()`;

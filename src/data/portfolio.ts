@@ -1,6 +1,6 @@
 export const profile = {
   name: "Masereka Benet",
-  role: "Frontend Developer",
+  role: "Software Developer",
   location: "Kampala, Uganda",
   email: "benetmasereka21@gmail.com",
   phone: "0792910305",
