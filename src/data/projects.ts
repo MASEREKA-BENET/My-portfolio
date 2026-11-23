@@ -60,8 +60,8 @@ export const projects: Project[] = [
     description: "A responsive five-page website introducing Rwenzori Development Initiative (RWeDI), its community programmes and ways to get involved.",
     problem: "A community development organisation needs a clear, accessible online presence to explain its work and connect with the community.", solution: "A responsive website with dedicated pages for the organisation, programmes, projects and contact information.",
     role: "Website Developer.", contributions: ["Built the responsive website and its shared navigation, content pages and interactive elements."],
-    features: ["Five responsive pages", "Organisation and programme information", "Project showcase", "Mobile navigation and interactive homepage slideshow", "Contact and social links"], technologies: ["HTML", "CSS", "JavaScript"], status: "Private preview",
-    coverImage: rwediScreenshot, gallery: [{ src: rwediScreenshot, alt: "RWeDI homepage showing its community development programmes" }], githubUrl: "https://github.com/MASEREKA-BENET/rwedi-website", relatedProjects: ["greentoken-kasese", "hydrosense"],
+    features: ["Five responsive pages", "Organisation and programme information", "Project showcase", "Mobile navigation and interactive homepage slideshow", "Contact and social links"], technologies: ["HTML", "CSS", "JavaScript"], status: "Live on Vercel",
+    coverImage: rwediScreenshot, gallery: [{ src: rwediScreenshot, alt: "RWeDI homepage showing its community development programmes" }], githubUrl: "https://github.com/MASEREKA-BENET/rwedi-website", liveUrl: "https://rwedi-website.vercel.app", relatedProjects: ["greentoken-kasese", "hydrosense"],
   },
   {
     title: "African Ark College Management System", slug: "school-management-system", subtitle: "A role-based college and student administration platform", category: "Web development", kind: "Built",
