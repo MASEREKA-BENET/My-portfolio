@@ -5,6 +5,7 @@ import greenTokenScreenshot from "../../greentoken -kasese screenshoot.png";
 import hydroSenseScreenshot from "../../hydrosense screenshoot.png";
 import libraryScreenshot from "../../library management system screenshot.jpeg";
 import payrollScreenshot from "../../payrol screenshot.png";
+import rwediScreenshot from "../../RWeDI SCREEN SHOOT.png";
 import schoolScreenshot from "../../school management system screenshoot.png";
 import universityDashboardScreenshot from "../../university  student performance dashboard screenshot.png";
 
@@ -53,6 +54,14 @@ export const projects: Project[] = [
     problem: "Universities often keep marks in separate files, calculate GPA manually and identify students at risk too late.", solution: "A connected workbook that centralizes academic records, automates calculations, flags student standing and provides filtered dashboards and transcripts.",
     role: "Sole Developer.", contributions: ["Designed and built the Excel tracker and dashboard independently."], features: ["Student and course registers with validation", "Automatic totals, grades, GPA and degree classification", "Dean's List, at-risk and probation flags", "Programme and semester dashboard with course analysis", "Printable student transcripts"], technologies: ["Microsoft Excel"], status: "Completed Excel project",
     coverImage: universityDashboardScreenshot, gallery: [{ src: universityDashboardScreenshot, alt: "University Student Performance Tracker dashboard" }], githubUrl: "https://github.com/MASEREKA-BENET/University-Student-Performance-Tracker", relatedProjects: ["student-attendance-tracker", "payroll-system"],
+  },
+  {
+    title: "Rwenzori Development Initiative (RWeDI)", slug: "rwenzori-development-initiative", subtitle: "A community development website for agriculture, youth and education", category: "Web development", kind: "Built",
+    description: "A responsive five-page website introducing Rwenzori Development Initiative (RWeDI), its community programmes and ways to get involved.",
+    problem: "A community development organisation needs a clear, accessible online presence to explain its work and connect with the community.", solution: "A responsive website with dedicated pages for the organisation, programmes, projects and contact information.",
+    role: "Website Developer.", contributions: ["Built the responsive website and its shared navigation, content pages and interactive elements."],
+    features: ["Five responsive pages", "Organisation and programme information", "Project showcase", "Mobile navigation and interactive homepage slideshow", "Contact and social links"], technologies: ["HTML", "CSS", "JavaScript"], status: "Private preview",
+    coverImage: rwediScreenshot, gallery: [{ src: rwediScreenshot, alt: "RWeDI homepage showing its community development programmes" }], githubUrl: "https://github.com/MASEREKA-BENET/rwedi-website", relatedProjects: ["greentoken-kasese", "hydrosense"],
   },
   {
     title: "African Ark College Management System", slug: "school-management-system", subtitle: "A role-based college and student administration platform", category: "Web development", kind: "Built",
