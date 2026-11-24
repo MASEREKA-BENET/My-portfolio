@@ -57,10 +57,10 @@ export const projects: Project[] = [
   },
   {
     title: "Rwenzori Development Initiative (RWeDI)", slug: "rwenzori-development-initiative", subtitle: "A community development website for agriculture, youth and education", category: "Web development", kind: "Built",
-    description: "A responsive five-page website introducing Rwenzori Development Initiative (RWeDI), its community programmes and ways to get involved.",
-    problem: "A community development organisation needs a clear, accessible online presence to explain its work and connect with the community.", solution: "A responsive website with dedicated pages for the organisation, programmes, projects and contact information.",
-    role: "Website Developer.", contributions: ["Built the responsive website and its shared navigation, content pages and interactive elements."],
-    features: ["Five responsive pages", "Organisation and programme information", "Project showcase", "Mobile navigation and interactive homepage slideshow", "Contact and social links"], technologies: ["HTML", "CSS", "JavaScript"], status: "Live on Vercel",
+    description: "A responsive five-page website presenting Rwenzori Development Initiative (RweDI), its founders, four programme areas, a proposed community farming pilot and ways to connect.",
+    problem: "A community development organisation needs a clear, accessible online presence to explain its work, introduce its team and connect with the community and potential partners.", solution: "A responsive, image-led website with dedicated pages for the organisation, programmes, project information and contact, supported by accessible navigation and interactive homepage photography.",
+    role: "Website Developer.", contributions: ["Built and refined the responsive website, shared page layout, navigation, content pages, slideshow and contact interactions."],
+    features: ["Five responsive pages with shared navigation and footer", "About page introducing the founding team", "Four programme areas with detailed descriptions", "Kithoma Youth-Led Climate-Smart Farming Pilot clearly presented as proposed", "Homepage photo slideshow with pause, resume and direct slide controls", "Responsive menu with keyboard and outside-click dismissal", "Animated inner-page headings", "Contact options for participation, volunteering and partnerships", "Email, phone, WhatsApp and social links with a copyright footer"], technologies: ["HTML", "CSS", "JavaScript"], status: "Live preview on Vercel",
     coverImage: rwediScreenshot, gallery: [{ src: rwediScreenshot, alt: "RWeDI homepage showing its community development programmes" }], githubUrl: "https://github.com/MASEREKA-BENET/rwedi-website", liveUrl: "https://rwedi-website.vercel.app", relatedProjects: ["greentoken-kasese", "hydrosense"],
   },
   {
