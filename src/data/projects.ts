@@ -1,5 +1,7 @@
 import attendanceScreenshot from "../../attendance tracker screenshoot.png";
 import campusScreenshot from "../../campus compus screenshoot.png";
+import farmSaveScreenshot from "../../public/images/farmsave-africa.png";
+import farmSaveRolesScreenshot from "../../public/images/farmsave-africa-roles.png";
 import findMeScreenshot from "../../findme screenshot.png";
 import greenTokenScreenshot from "../../greentoken -kasese screenshoot.png";
 import hydroSenseScreenshot from "../../hydrosense screenshoot.png";
@@ -32,6 +34,15 @@ export type Project = {
 };
 
 export const projects: Project[] = [
+  {
+    title: "FarmSave Africa", slug: "farmsave-africa", subtitle: "A post-harvest management and agricultural market-linkage platform", category: "Web development", kind: "Built",
+    description: "A full-stack platform connecting farmers, buyers, transporters and field coordinators to support better harvest handling and market access, starting with a pilot in Kasese, Uganda.",
+    problem: "Smallholder farmers can lose the value of their harvest through spoilage, transport delays and uncertain markets, while stakeholders lack a shared way to coordinate produce from harvest to sale.", solution: "A farmer-first platform that brings crop and harvest records, practical support, produce listings, buyer offers and coordinated transport into one workflow.",
+    role: "Sole Developer.", contributions: ["Designed and built the full-stack web platform and its public site, role-based workflows and data-backed marketplace features."],
+    features: ["Farmer records for farms, crops, harvests, inventory, losses and expenses", "Produce listings, buyer offers and order milestones", "Transporter profiles, service areas and delivery coordination", "Field coordinator tools for enrollment, surveys, training and harvest verification", "Administrator workflows for approvals, operating areas, guidance and reporting", "Public website explaining the service and its Kasese pilot"],
+    technologies: ["Next.js", "React", "TypeScript", "PostgreSQL", "Prisma", "Auth.js"], status: "Live on Vercel",
+    coverImage: farmSaveScreenshot, gallery: [{ src: farmSaveRolesScreenshot, alt: "FarmSave Africa platform roles for farmers, buyers, transporters, coordinators and agricultural partners" }], githubUrl: "https://github.com/MASEREKA-BENET/farmsave-africa", liveUrl: "https://farmsave-africa.vercel.app", relatedProjects: ["greentoken-kasese", "rwenzori-development-initiative"],
+  },
   {
     title: "Campus Compass", slug: "campus-compass", subtitle: "A room-booking prototype for campus spaces", category: "Web development", kind: "Team project",
     description: "A campus room-booking prototype to help students discover available rooms, schedule bookings and check in with QR codes.",
