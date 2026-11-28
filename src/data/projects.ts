@@ -7,6 +7,7 @@ import greenTokenScreenshot from "../../greentoken -kasese screenshoot.png";
 import hydroSenseScreenshot from "../../hydrosense screenshoot.png";
 import libraryScreenshot from "../../library management system screenshot.jpeg";
 import payrollScreenshot from "../../payrol screenshot.png";
+import rwenzoriAcademyScreenshot from "../../RDA screenshot .png";
 import rwediScreenshot from "../../RWeDI SCREEN SHOOT.png";
 import schoolScreenshot from "../../school management system screenshoot.png";
 import universityDashboardScreenshot from "../../university  student performance dashboard screenshot.png";
@@ -72,7 +73,16 @@ export const projects: Project[] = [
     problem: "A community development organisation needs a clear, accessible online presence to explain its work, introduce its team and connect with the community and potential partners.", solution: "A responsive, image-led website with dedicated pages for the organisation, programmes, project information and contact, supported by accessible navigation and interactive homepage photography.",
     role: "Website Developer.", contributions: ["Built and refined the responsive website, shared page layout, navigation, content pages, slideshow and contact interactions."],
     features: ["Five responsive pages with shared navigation and footer", "About page introducing the founding team", "Four programme areas with detailed descriptions", "Kithoma Youth-Led Climate-Smart Farming Pilot clearly presented as proposed", "Homepage photo slideshow with pause, resume and direct slide controls", "Responsive menu with keyboard and outside-click dismissal", "Animated inner-page headings", "Contact options for participation, volunteering and partnerships", "Email, phone, WhatsApp and social links with a copyright footer"], technologies: ["HTML", "CSS", "JavaScript"], status: "Live preview on Vercel",
-    coverImage: rwediScreenshot, gallery: [{ src: rwediScreenshot, alt: "RWeDI homepage showing its community development programmes" }], githubUrl: "https://github.com/MASEREKA-BENET/rwedi-website", liveUrl: "https://rwedi-website.vercel.app", relatedProjects: ["greentoken-kasese", "hydrosense"],
+    coverImage: rwediScreenshot, gallery: [{ src: rwediScreenshot, alt: "RWeDI homepage showing its community development programmes" }], githubUrl: "https://github.com/MASEREKA-BENET/rwedi-website", liveUrl: "https://rwedi-website.vercel.app", relatedProjects: ["rwenzori-digital-academy", "greentoken-kasese", "hydrosense"],
+  },
+  {
+    title: "Rwenzori Digital Academy", slug: "rwenzori-digital-academy", subtitle: "A digital academy website for a community-focused learning initiative", category: "Web development", kind: "Built",
+    description: "A responsive website presenting Rwenzori Digital Academy’s vision for accessible digital skills education and youth empowerment in Kasese Municipality.",
+    problem: "A proposed community-focused digital learning initiative needs a clear online presence to explain its purpose, planned programmes and opportunities for community participation.", solution: "An image-led website introducing the academy, its founders and values, proposed learning programmes, intended impact, admissions enquiries and partnership opportunities.",
+    role: "Website Developer.", contributions: ["Built the responsive website to present the academy’s vision, planned programmes and ways for learners and partners to connect."],
+    features: ["Responsive sections introducing the academy, its founders and governance", "Six proposed digital skills programme areas", "Planned impact targets and intended learner communities", "Admissions and partnership information reflecting the planning stage", "Enquiry form presented as a front-end demonstration"],
+    technologies: ["HTML", "CSS", "JavaScript"], status: "Live website · Academy in planning and establishment stage",
+    coverImage: rwenzoriAcademyScreenshot, gallery: [{ src: rwenzoriAcademyScreenshot, alt: "Rwenzori Digital Academy website screenshot" }], githubUrl: "https://github.com/MASEREKA-BENET/rwenzori-digital-academy-website-", liveUrl: "https://rwenzori-digital-academy-website.vercel.app/", relatedProjects: ["rwenzori-development-initiative", "farmsave-africa"],
   },
   {
     title: "African Ark College Management System", slug: "school-management-system", subtitle: "A role-based college and student administration platform", category: "Web development", kind: "Built",
